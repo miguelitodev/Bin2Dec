@@ -15,6 +15,8 @@ input.addEventListener("keyup", () => {
 			if (lengthValue === 8) {
 				let dec = parseInt(input.value, 2);
 				document.querySelector("div#dec").innerHTML = `Resultado\n${dec}`;
+			} else {
+				document.querySelector("div#dec").innerHTML = ``;
 			}
 		}
 	}
